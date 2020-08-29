@@ -1,0 +1,92 @@
+        #logo {
+            width: 150px;
+            height: 31px;
+            background: url("imagenes/logomobile.png");
+            font-size: 0;
+            
+            /* Corregimos el posicionamiento y el z-index ya que ahora la barra queda fija. */
+            
+            position: fixed;            
+            top: 8px;
+            left: 20px;
+            z-index: 1031;
+        }
+        header {
+            position: relative;
+        }
+
+#irena {
+    background-image: url('imagenes/fondoescritorio.jpg');
+    
+}
+footer {
+    text-align: center;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+}
+iframe {
+    height: 100%;
+}
+.container {
+    height: auto;
+}
+figcaption {
+	background-color: #09a7ec;
+	padding: 1%;
+}
+
+#botonf {
+	background-color: #09a7ec;
+	color: white;
+	border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+}
+.micontenedor {
+	border: solid grey 0.5px;
+	padding: 10px;
+	border-radius: 5px;
+	height: 100%;
+}
+.card {
+	border: none;
+	margin-bottom: 1rem;
+	
+}
+#conocemasdar {
+	margin: 1em;
+}
+
+#eltitulo {
+	margin-top: 15%;
+	color: #09a7ec;
+}
+footer {
+	background-color: #09a7ec;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+footer li{
+   display: inline;
+   text-align: center;
+	margin-right: 40px;
+
+
+}
+.botonparrafosd {
+	color: white;
+	border: solid white;
+	border-radius: 3px;
+	background-color: transparent;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
