@@ -2,6 +2,59 @@
     box-sizing: border-box;
 }
 
+/*----------------------------SPLASH---------------------------------*/
+.splash{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #343031;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: open;
+    animation-duration: 2s;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+}
+.splash img {
+margin: 20px;
+}
+.splash::after, .splash::before{
+    content: "";
+    position: absolute;
+    background-color: #343031;
+    height: 100vh;
+    width: 35vw;
+    z-index: 99;
+    animation-name: open;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}
+.splash::after{
+    left: 30vw;
+    animation-delay: 200ms;
+}
+.splash::before{
+    left: 0;
+    animation-delay: 2s;
+}
+
+@keyframes open{
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(100%, 0);
+    }
+}
+/*---------------------------1ERA SECCION---------------------------*/
+
+
+
+
 /* Tuneamos la barra de navegación pisando las clases del framework. */
 
 .navbar {

@@ -2,13 +2,97 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zelux App.</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/css/bootstrap.css">
+    <link rel="stylesheet" href="css/css/estilos.css">
 </head>
 <body>
+    <!------------------------------------------------------SPLASH SCREEN-------------------------------------------------------->
+    <div class="splash">
+        <div class="img"> <img src="./imagenes/ZELUX.png" alt="logo zelux"></div>
+    </div>
     
+    <!-------------------------------------------------------1ER BLOQUE---------------------------------------------------------->
+    
+    <div>
+        <h1>Esto es mi appp.</h1>
+    </div>
+
+    <!------------------------------------------------ 2DO BLOQUE ----------->
+
+
+    <div class="content container-fluid" data-role="page" id="dos">
+        <div class="row border-bottom mb-3 py-2 px-3">
+            <h1 class="display-4">idM</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 pb-3">
+                <div class="row card border-0 rounded-0">
+                    <img src="imagenes/foto2.jpg" alt="foto" class="img-fluid">
+                    <div class="card-body col">                        
+                        
+                        <h2 class="h5">Título del posteo</h2>
+                        
+                        <!-- Ver código al final del documento. -->
+                        
+                        <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique doloremque ea, suscipit error velit quasi nulla sequi id natus, fugit odit, quas beatae. Asperiores enim quidem esse excepturi expedita, placeat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-3">
+                <div class="row card border-0 rounded-0">
+                    <img src="imagenes/foto2.jpg" alt="foto" class="img-fluid">
+                    <div class="card-body col">                        
+                        
+                        <h2 class="h5">Título del posteo</h2>
+                        
+                        <!-- Ver código al final del documento. -->
+                        
+                        <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique doloremque ea, suscipit error velit quasi nulla sequi id natus, fugit odit, quas beatae. Asperiores enim quidem esse excepturi expedita, placeat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-3">
+                <div class="card border-warning">
+                    <div class="card-body">
+                        <img src="imagenes/foto.jpg" alt="foto" class="img-fluid">
+                        
+                        <h2 class="h5 mt-3">Título del posteo</h2>
+                        
+                        <!-- Ver código al final del documento. -->
+                        
+                        <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique doloremque ea, suscipit error velit quasi nulla sequi id natus, fugit odit, quas beatae. Asperiores enim quidem esse excepturi expedita, placeat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pb-3">
+                <div class="card border-warning">
+                    <div class="card-body">
+                        <img src="imagenes/foto.jpg" alt="foto" class="img-fluid">
+                        
+                        <h2 class="h5 mt-3">Título del posteo</h2>
+                        
+                        <!-- Ver código al final del documento. -->
+                        
+                        <p class="text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique doloremque ea, suscipit error velit quasi nulla sequi id natus, fugit odit, quas beatae. Asperiores enim quidem esse excepturi expedita, placeat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script>    
+        /* Seleccionamos a los párrafos que tienen aplicada la clase text-truncate de Bootstrap (corta el texto en una única línea y le agrega los ... cuando no entra completo en su contenedor, en el CSS aplicamos también una propiedad para que el corte se produzca a partir de la segunda línea de texto en vez de la primera) y le asociamos el evento click. 
+        
+        En la función que responde al evento, al párrafo al que le hicimos click (this) le sacamos la clase text-truncate para liberar el texto y verlo completo o se la aplicamos si se la habíamos sacado previamente con clicks sucesivos. */
+        
+        $('.text-truncate').on('click', function() {
+            $(this).toggleClass('text-truncate');
+
+        });
+
+    </script>
 </body>
 </html>
