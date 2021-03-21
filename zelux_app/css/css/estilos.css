@@ -52,7 +52,7 @@ margin: 20px;
 }
 /*---------------------------1ERA SECCION---------------------------*/
 
-h1 {
+#divbanner1 h1 {
     background-image: url(../../imagenes/banner1.png);
     background-repeat: no-repeat; background-position: center center;
     height: 35vh;
@@ -61,6 +61,10 @@ h1 {
     box-sizing: border-box;
     padding-top: 20vh;
     border-radius: 0 0 10px 10px;    
+}
+#banner2 h2, #banner3 h2, #banner4 h2, #banner5 h2 {
+    padding-top: 7rem;
+    font-size: 24px;
 }
 #banner2 {
     background-image: url(../../imagenes/banner2.png);
