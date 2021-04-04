@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
+    
 }
 
 /*----------------------------SPLASH---------------------------------*/
@@ -61,8 +62,54 @@ margin: 20px;
     border-radius: 3px;
     color: black;
     padding: 0.5rem;
+    
 
 }
+.botoncomprar1 {
+    background-color: #F1C96D;
+    text-decoration: none;
+    border-radius: 3px;
+    color: black;
+    padding: 0.5rem;
+    height: 100%;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+
+}
+.boton2 {
+    text-decoration: none;
+    border: solid grey;
+    border-radius: 3px;
+    color: black;
+    padding: 0.5rem !important;
+
+}
+.botonz {
+    border: solid gray 0.1px;
+    border-radius: 3px;
+    padding: 1rem;
+}
+.botony {
+    border: solid gray 0.1px;
+    border-radius: 3px;
+    padding:1rem;
+    margin: 0 0 1rem 0;
+}
+.int {
+    padding:0;
+    margin:0;
+    
+}
+.padding {
+    padding: 0;
+    box-sizing: border-box;
+}
+.padding {
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 1em;
+}
+
 .nop {
     padding: 0;
     margin: 0;
@@ -197,7 +244,7 @@ del {color: grey;
 /*--------------------------COMPRA1-----------------------------------*/
 #compra {
 
-    padding: 0;
+    padding: 0 0 1em 0;
     margin: 0;
     
 }
@@ -230,7 +277,7 @@ del {color: grey;
 }
 .cont1 {
     
-    padding: 0;
+    padding: 0 0 15px 0;
     
 
 }
